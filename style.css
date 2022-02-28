@@ -1,0 +1,117 @@
+/*colors and fonts*/
+
+body{
+	background: #EEEDDE;
+	color: #203239;
+	font-family: 'Lora', serif;
+	font-size: 20px
+	font-weight:0,400;
+}
+
+h1{
+	color: #141E27;
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+}
+
+h2{
+	color: #141E27;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+h3{
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: #E0DDAA;
+	font-family: 'Lora', serif;
+}
+
+a:hover{
+	color: #1C0A00;
+	font-family: 'Playfair Display', serif;
+}
+
+
+/*Custom design with class*/
+
+.container{
+	width: 800px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #203239;
+	color: #E0DDAA;
+	padding: 15px 20px;
+	border-radius: 7px;
+}
+
+.btn-blue:hover{
+	background-color: #E0DDAA;
+	color: #203239;
+	border-radius: 7px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;
+	font-color: rgb(210,210,210);
+}
+
+.list-inline i:hover{
+	font-size: 30px;
+	font-color: rgb(10,10,10);
+}
+
+#introduction p {
+	margin: 30px;
+}
+
+#iconsport i{
+	font-size: 20px;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
